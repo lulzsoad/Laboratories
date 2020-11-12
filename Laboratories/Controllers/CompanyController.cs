@@ -27,5 +27,10 @@ namespace Laboratories.Controllers
 
             return View("CompanyAdded", viewModel);
         }
+
+        public IActionResult Add()
+        {
+            return View();
+        }
     }
 }
