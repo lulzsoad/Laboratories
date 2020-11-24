@@ -1,4 +1,5 @@
-﻿using Laboratories.Models;
+﻿using Laboratories.Database;
+using Laboratories.Models;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
@@ -9,6 +10,8 @@ namespace Laboratories.Controllers
 {
     public class CompanyController : Controller
     {
+        
+
         [HttpGet]
         public IActionResult Index()
         {
